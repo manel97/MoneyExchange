@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811189D521933CF700CFF7EF /* Hack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811189D421933CF700CFF7EF /* Hack.swift */; };
+		811812332189F44700B2DF6F /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811812322189F44700B2DF6F /* Moneda.swift */; };
 		81FB60232188CCDF00B55FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB60222188CCDF00B55FB1 /* AppDelegate.swift */; };
 		81FB60252188CCDF00B55FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB60242188CCDF00B55FB1 /* ViewController.swift */; };
 		81FB60282188CCDF00B55FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FB60262188CCDF00B55FB1 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		811189D421933CF700CFF7EF /* Hack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack.swift; sourceTree = "<group>"; };
+		811812322189F44700B2DF6F /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 		81FB601F2188CCDF00B55FB1 /* practica2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FB60222188CCDF00B55FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81FB60242188CCDF00B55FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				81FB60292188CCE200B55FB1 /* Assets.xcassets */,
 				81FB602B2188CCE200B55FB1 /* LaunchScreen.storyboard */,
 				81FB602E2188CCE200B55FB1 /* Info.plist */,
+				811812322189F44700B2DF6F /* Moneda.swift */,
+				811189D421933CF700CFF7EF /* Hack.swift */,
 			);
 			path = practica2;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811189D521933CF700CFF7EF /* Hack.swift in Sources */,
 				81FB60252188CCDF00B55FB1 /* ViewController.swift in Sources */,
 				81FB60232188CCDF00B55FB1 /* AppDelegate.swift in Sources */,
+				811812332189F44700B2DF6F /* Moneda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
